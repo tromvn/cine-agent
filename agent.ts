@@ -4,6 +4,14 @@ import { OpenAIModel } from "@strands-agents/sdk/models/openai";
 import { Agent } from "@strands-agents/sdk";
 import { buscarPeliculas, agregarDirector, buscarEnTMDB } from "./tools.js";
 
+import { SessionManager, FileStorage } from "@strands-agents/sdk";
+
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 // Configurar el modelo Ollama
 const model = new OpenAIModel({
   api: "chat",
@@ -38,11 +46,18 @@ Después de usar las herramientas, SIEMPRE responde con una recomendación
 entusiasta en español, mencionando el estilo del director, una película
 concreta con su sinopsis y un dato curioso.`,
   tools: [buscarPeliculas, agregarDirector, buscarEnTMDB],
+  sessionManager: new SessionManager({
+    storage: {
+      snapshot: new FileStorage(join(__dirname, "sessions"))
+    },
+    sessionId: "cinefilo",
+  }),
+  // printer: false // para controlar la salida del agente, pero se pierde el log de las tools
 });
 
-const preguntaUsuario = "Agrega a Kenji Mizoguchi y 4 películas suyas";
+const preguntaUsuario = "¿Qué película de las que mencionaste antes es más accesible para alguien que no conoce el cine iraní?";
 
+console.log("Respuesta del cinéfilo:\n");
 const respuesta = await agent.invoke(preguntaUsuario);
 
-console.log("Respues del cinéfilo:\n");
-console.log(respuesta.toString());
+// console.log(respuesta.toString());

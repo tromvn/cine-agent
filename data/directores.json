@@ -207,5 +207,38 @@
         "dato_curioso": "Fue seleccionada como la mejor película japonesa para la Oscar"
       }
     ]
+  },
+  {
+    "nombre": "Abbas Kiarostami",
+    "pais": "Irán",
+    "estilo": "Drama y cine de observación",
+    "temas": [
+      "identidad",
+      "realidad",
+      "ficcion"
+    ],
+    "peliculas": [
+      {
+        "titulo": "El sabor de las cerezas",
+        "año": 1997,
+        "genero": "Drama",
+        "sinopsis": "Un hombre de mediana edad decide suicidarse",
+        "dato_curioso": "Ganadora del León de Oro en el Festival de Cine de Venecia"
+      },
+      {
+        "titulo": "Primer plano",
+        "año": 1990,
+        "genero": "Drama",
+        "sinopsis": "La relación entre un director y su audiencia",
+        "dato_curioso": "Mezcla de documental y drama"
+      },
+      {
+        "titulo": "Copia certificada",
+        "año": 2010,
+        "genero": "Cine de observación",
+        "sinopsis": "La conexión entre un escritor y su audiencia a través del cine",
+        "dato_curioso": "Premio a la mejor película en el Festival de Cine de Mar del Plata"
+      }
+    ]
   }
 ]
