@@ -167,5 +167,45 @@
         "dato_curioso": "Basada en una obra de teatro; el final, que parece imposible, Dreyer lo filma con total sobriedad para hacerlo creíble."
       }
     ]
+  },
+  {
+    "nombre": "Kenji Mizoguchi",
+    "pais": "Japón",
+    "estilo": "Realizador japonés conocido por sus películas sociales y dramas familiares",
+    "temas": [
+      "familia",
+      "sociedad",
+      "moral"
+    ],
+    "peliculas": [
+      {
+        "titulo": "La lluvia",
+        "año": 1953,
+        "genero": "drama",
+        "sinopsis": "La historia sigue a una joven que es obligada a casarse con un hombre mayor y decide huir para evitar el matrimonio, pero es perseguida en su intento",
+        "dato_curioso": "Fue elegida mejor película de Japón en el año 1953"
+      },
+      {
+        "titulo": "Las hijas del fuego",
+        "año": 1945,
+        "genero": "drama",
+        "sinopsis": "La película sigue a dos hermanas que viven en un pueblo rural japonés y se enfrentan a dificultades económicas y personales",
+        "dato_curioso": "Se basa en la novela de la autora japonesa Yasunari Kawabata"
+      },
+      {
+        "titulo": "Vida de Ópera",
+        "año": 1952,
+        "genero": "drama",
+        "sinopsis": "Un joven sirviente en una familia noble se enamora de la hija del dueño de casa, pero su relación es imposible debido a la diferencia social",
+        "dato_curioso": "Se basa en la novela de la escritora estadounidense Louis-Sébastien Mercier"
+      },
+      {
+        "titulo": "La vida de Oharu",
+        "año": 1952,
+        "genero": "drama",
+        "sinopsis": "La historia sigue a una joven que es obligada a casarse con un hombre mayor y es perseguida al intentar escapar del matrimonio",
+        "dato_curioso": "Fue seleccionada como la mejor película japonesa para la Oscar"
+      }
+    ]
   }
 ]
