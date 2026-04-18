@@ -1,0 +1,190 @@
+[
+  {
+    "nombre": "Francis Ford Coppola",
+    "pais": "Estados Unidos",
+    "estilo": "Drama épico, realismo americano, narrativa coral",
+    "temas": [
+      "familia",
+      "poder",
+      "corrupción",
+      "identidad americana",
+      "guerra"
+    ],
+    "peliculas": [
+      {
+        "titulo": "El Padrino",
+        "año": 1972,
+        "genero": "Drama criminal",
+        "sinopsis": "La saga de la familia Corleone, una de las familias mafiosas más poderosas de Nueva York.",
+        "dato_curioso": "Marlon Brando se metió algodón en los carrillos para conseguir la voz ronca del personaje."
+      },
+      {
+        "titulo": "Apocalypse Now",
+        "año": 1979,
+        "genero": "Drama bélico",
+        "sinopsis": "Un capitán del ejército viaja río adentro por la selva vietnamita para eliminar a un coronel que se ha vuelto dios entre los nativos.",
+        "dato_curioso": "El rodaje duró 238 días en Filipinas; Coppola sufrió una crisis nerviosa durante la producción."
+      },
+      {
+        "titulo": "La Conversación",
+        "año": 1974,
+        "genero": "Thriller psicológico",
+        "sinopsis": "Un experto en vigilancia acústica empieza a obsesionarse con una grabación que podría implicarlo en un asesinato.",
+        "dato_curioso": "Ganó la Palma de Oro en Cannes, eclipsada por El Padrino II ese mismo año."
+      }
+    ]
+  },
+  {
+    "nombre": "Robert Bresson",
+    "pais": "Francia",
+    "estilo": "Minimalismo ascético, no-actuación, espiritualidad austera",
+    "temas": [
+      "gracia",
+      "determinismo",
+      "alma",
+      "libertad",
+      "redención"
+    ],
+    "peliculas": [
+      {
+        "titulo": "Un condenado a muerte ha escapado",
+        "año": 1956,
+        "genero": "Drama carcelario",
+        "sinopsis": "Un prisionero de la Resistencia francesa planea meticulosamente su fuga de una prisión nazi en Lyon.",
+        "dato_curioso": "Bresson rodó exclusivamente con actores no profesionales, a los que llamaba 'modelos'."
+      },
+      {
+        "titulo": "Pickpocket",
+        "año": 1959,
+        "genero": "Drama",
+        "sinopsis": "Un joven carterista parisino justifica filosóficamente sus robos mientras busca una conexión humana que le eluda.",
+        "dato_curioso": "Las escenas de robo fueron coreografiadas con un experto carterista real durante meses."
+      },
+      {
+        "titulo": "Au hasard Balthazar",
+        "año": 1966,
+        "genero": "Drama",
+        "sinopsis": "La vida de un burro que pasa por distintos dueños refleja la crueldad y la gracia del mundo humano.",
+        "dato_curioso": "Jean-Luc Godard dijo que era 'el mundo entero en hora y media'."
+      }
+    ]
+  },
+  {
+    "nombre": "Yasujirō Ozu",
+    "pais": "Japón",
+    "estilo": "Tatami shots, planos fijos, ellipsis temporal, pillow shots",
+    "temas": [
+      "familia",
+      "paso del tiempo",
+      "modernidad vs tradición",
+      "soledad",
+      "aceptación"
+    ],
+    "peliculas": [
+      {
+        "titulo": "Cuentos de Tokio",
+        "año": 1953,
+        "genero": "Drama familiar",
+        "sinopsis": "Un matrimonio anciano viaja a Tokio a visitar a sus hijos adultos, quienes apenas tienen tiempo para ellos.",
+        "dato_curioso": "Considerada una de las mejores películas de la historia, Ozu la filmó desde la altura de una persona sentada en el tatami."
+      },
+      {
+        "titulo": "El sabor del sake",
+        "año": 1962,
+        "genero": "Drama",
+        "sinopsis": "Un viudo envejecido reflexiona sobre la soledad y el deber mientras intenta casar a su hija.",
+        "dato_curioso": "Fue la última película de Ozu; murió el mismo año de su 60 cumpleaños."
+      }
+    ]
+  },
+  {
+    "nombre": "Andrei Tarkovsky",
+    "pais": "Rusia",
+    "estilo": "Tiempo esculpido, planos largos, onírico, poético",
+    "temas": [
+      "memoria",
+      "fe",
+      "sacrificio",
+      "tiempo",
+      "naturaleza",
+      "exilio"
+    ],
+    "peliculas": [
+      {
+        "titulo": "Solaris",
+        "año": 1972,
+        "genero": "Ciencia ficción filosófica",
+        "sinopsis": "Un psicólogo viaja a una estación espacial que orbita un océano viviente capaz de materializar los recuerdos más profundos de sus tripulantes.",
+        "dato_curioso": "Tarkovsky la concibió como una respuesta humanista y anti-espectáculo a '2001: Odisea del espacio'."
+      },
+      {
+        "titulo": "Andrei Rublev",
+        "año": 1966,
+        "genero": "Drama histórico",
+        "sinopsis": "La vida del iconógrafo ruso medieval, fragmentada en episodios que exploran la fe, el arte y la barbarie.",
+        "dato_curioso": "Fue censurada en la URSS y no se estrenó en Occidente hasta 1969."
+      },
+      {
+        "titulo": "El espejo",
+        "año": 1975,
+        "genero": "Drama autobiográfico",
+        "sinopsis": "Una meditación poética y no lineal sobre la memoria, la infancia y la identidad, mezclando presente, pasado y sueños.",
+        "dato_curioso": "La madre real de Tarkovsky aparece en el film interpretando a la madre del protagonista de adulta."
+      }
+    ]
+  },
+  {
+    "nombre": "Carl Theodor Dreyer",
+    "pais": "Dinamarca",
+    "estilo": "Primeros planos extremos, rostros como paisajes, geometría dramática",
+    "temas": [
+      "fe",
+      "fanatismo",
+      "injusticia",
+      "amor místico",
+      "muerte"
+    ],
+    "peliculas": [
+      {
+        "titulo": "La pasión de Juana de Arco",
+        "año": 1928,
+        "genero": "Drama histórico / Cine mudo",
+        "sinopsis": "El último día del juicio y ejecución de Juana de Arco, contado a través de primeros planos devastadores.",
+        "dato_curioso": "Dreyer filmó en orden cronológico para que la actriz María Falconetti viviera emocionalmente el proceso; nunca más volvió a actuar en cine."
+      },
+      {
+        "titulo": "Ordet",
+        "año": 1955,
+        "genero": "Drama espiritual",
+        "sinopsis": "En una familia campesina danesa, un hijo que cree ser Jesucristo resucita a una mujer muerta.",
+        "dato_curioso": "Basada en una obra de teatro; el final, que parece imposible, Dreyer lo filma con total sobriedad para hacerlo creíble."
+      }
+    ]
+  },
+  {
+    "nombre": "<NAME>",
+    "pais": "Rusia",
+    "estilo": "Surrealismo esotérico",
+    "temas": [
+      "muerte",
+      "superficie",
+      "espiritu"
+    ],
+    "peliculas": [
+      {
+        "titulo": "Sacrificio",
+        "año": 1986,
+        "genero": "Drama",
+        "sinopsis": "Una infancia ruso-alemana a través de la memoria colectiva.",
+        "dato_curioso": "Tarkovsky utilizó un árbol de Navidad en la set durante el rodaje."
+      },
+      {
+        "titulo": "Sacrificio",
+        "año": 1986,
+        "genero": "Drama",
+        "sinopsis": "Una infancia ruso-alemana a través de la memoria colectiva.",
+        "dato_curioso": "Cineasta más renomado en su país."
+      }
+    ]
+  }
+]
