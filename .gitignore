@@ -1,0 +1,5 @@
+# Comentarios y dependencias
+node_modules/
+
+# Datos de configuración personal
+.env
