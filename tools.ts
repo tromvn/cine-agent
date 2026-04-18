@@ -126,6 +126,15 @@ export const agregarDirector = tool({
       return `El director "${nuevoDirector.nombre}" ya existe en el dataset.`;
     }
 
+    // fix/deduplicar-peliculas: deduplicar películas por título antes de guardar
+    const peliculasUnicas = nuevoDirector.peliculas.filter(
+      (pelicula, index, self) =>
+        index ===
+        self.findIndex(
+          (p) => p.titulo.toLowerCase() === pelicula.titulo.toLowerCase(),
+        ),
+    );
+
     // Agregamos y guardamos
     dataset.push(nuevoDirector);
     fs.writeFileSync(rutaDataset, JSON.stringify(dataset, null, 2), "utf-8");

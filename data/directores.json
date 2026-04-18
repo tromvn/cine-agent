@@ -100,7 +100,7 @@
   {
     "nombre": "Andrei Tarkovsky",
     "pais": "Rusia",
-    "estilo": "Tiempo esculpido, planos largos, onírico, poético",
+    "estilo": "Esculpir en el tiempo, surrealismo esotérico, onírico, poético",
     "temas": [
       "memoria",
       "fe",
@@ -130,6 +130,13 @@
         "genero": "Drama autobiográfico",
         "sinopsis": "Una meditación poética y no lineal sobre la memoria, la infancia y la identidad, mezclando presente, pasado y sueños.",
         "dato_curioso": "La madre real de Tarkovsky aparece en el film interpretando a la madre del protagonista de adulta."
+      },
+      {
+        "titulo": "Sacrificio",
+        "año": 1986,
+        "genero": "Drama",
+        "sinopsis": "Mientras su familia se reúne para celebrar su cumpleaños, el periodista Alexander se siente angustiado por la desoladora falta de espiritualidad que caracteriza al mundo contemporáneo. Sus peores temores se confirman cuando, durante la fiesta, llega la noticia de un inminente conflicto nuclear: la Tercera Guerra Mundial",
+        "dato_curioso": "La escena final debió ser grabada dos veces, con todo el gasto que implicaba."
       }
     ]
   },
@@ -158,32 +165,6 @@
         "genero": "Drama espiritual",
         "sinopsis": "En una familia campesina danesa, un hijo que cree ser Jesucristo resucita a una mujer muerta.",
         "dato_curioso": "Basada en una obra de teatro; el final, que parece imposible, Dreyer lo filma con total sobriedad para hacerlo creíble."
-      }
-    ]
-  },
-  {
-    "nombre": "<NAME>",
-    "pais": "Rusia",
-    "estilo": "Surrealismo esotérico",
-    "temas": [
-      "muerte",
-      "superficie",
-      "espiritu"
-    ],
-    "peliculas": [
-      {
-        "titulo": "Sacrificio",
-        "año": 1986,
-        "genero": "Drama",
-        "sinopsis": "Una infancia ruso-alemana a través de la memoria colectiva.",
-        "dato_curioso": "Tarkovsky utilizó un árbol de Navidad en la set durante el rodaje."
-      },
-      {
-        "titulo": "Sacrificio",
-        "año": 1986,
-        "genero": "Drama",
-        "sinopsis": "Una infancia ruso-alemana a través de la memoria colectiva.",
-        "dato_curioso": "Cineasta más renomado en su país."
       }
     ]
   }
