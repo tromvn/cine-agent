@@ -39,10 +39,10 @@ cine-agent/
 ```bash
 git clone https://github.com/tromvn/cine-agent
 cd cine-agent
-npm install
+pnpm install
 ```
 
-Copiá el archivo de ejemplo y completá tus claves:
+Copia el archivo de ejemplo y completá tus claves:
 
 ```bash
 cp .env.example .env
