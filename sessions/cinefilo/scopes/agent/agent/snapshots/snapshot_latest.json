@@ -1,142 +1,14 @@
 {
   "scope": "agent",
   "schemaVersion": "1.0",
-  "createdAt": "2026-04-18T08:53:48.756Z",
+  "createdAt": "2026-07-27T23:01:36.239Z",
   "data": {
     "messages": [
       {
         "role": "user",
         "content": [
           {
-            "text": "Agrega a Kenji Mizoguchi y 4 películas suyas"
-          }
-        ]
-      },
-      {
-        "role": "assistant",
-        "content": [
-          {
-            "toolUse": {
-              "name": "agregar_director",
-              "toolUseId": "yww6fpz0d",
-              "input": {
-                "estilo": "Drama y romance",
-                "nombre": "Kenji Mizoguchi",
-                "pais": "Japón",
-                "peliculas": [
-                  {
-                    "año": 1953,
-                    "dato_curioso": "Ganadora del León de Oro en el Festival de Cine de Venecia",
-                    "genero": "Drama",
-                    "sinopsis": "Una pareja se reune después de una larga separación",
-                    "titulo": "Ugetsu"
-                  },
-                  {
-                    "año": 1939,
-                    "dato_curioso": "Considerada una de las mejores películas japonesas de la historia",
-                    "genero": "Drama",
-                    "sinopsis": "La vida de una joven aristócrata en el Edo feudal",
-                    "titulo": "Las hijas de Edo"
-                  },
-                  {
-                    "año": 1953,
-                    "dato_curioso": "Basada en la obra del poeta japonés Muju Ichien",
-                    "genero": "Drama",
-                    "sinopsis": "La vida de un monje budista en el siglo XVI",
-                    "titulo": "Las lluvias de Sesshú"
-                  },
-                  {
-                    "año": 1952,
-                    "dato_curioso": "Basada en una novela del escritor japonés Yasunari Kawabata",
-                    "genero": "Drama",
-                    "sinopsis": "La relación entre un padre y su hija en un contexto histórico",
-                    "titulo": "El cuerno del unicornio"
-                  }
-                ],
-                "temas": [
-                  "amor",
-                  "familia"
-                ]
-              }
-            }
-          },
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": [
-          {
-            "toolResult": {
-              "toolUseId": "yww6fpz0d",
-              "status": "success",
-              "content": [
-                {
-                  "text": "El director \"Kenji Mizoguchi\" ya existe en el dataset."
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "role": "assistant",
-        "content": [
-          {
-            "toolUse": {
-              "name": "buscar_en_tmdb",
-              "toolUseId": "fwqd79x2w",
-              "input": {
-                "nombre": "Kenji Mizoguchi",
-                "tipo": "director"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": [
-          {
-            "toolResult": {
-              "toolUseId": "fwqd79x2w",
-              "status": "success",
-              "content": [
-                {
-                  "text": "[\n  {\n    \"adult\": false,\n    \"gender\": 2,\n    \"id\": 97202,\n    \"known_for_department\": \"Directing\",\n    \"name\": \"Kenji Mizoguchi\",\n    \"original_name\": \"溝口健二\",\n    \"popularity\": 1.2718,\n    \"profile_path\": \"/ngKRZZPKh8d7GaeMgcM0eXbzMte.jpg\",\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/iB1tCWl4MKl6OO1kMBD5LxM5BmJ.jpg\",\n        \"id\": 14696,\n        \"title\": \"Cuentos de la luna pálida\",\n        \"original_title\": \"雨月物語\",\n        \"overview\": \"En el Japón del siglo XVI, los campesinos Genjuro y Tobei venden sus vasijas de barro a un grupo de soldados en un pueblo cercano, desafiando la advertencia de un sabio local contra la búsqueda de ganancias en la guerra. La búsqueda de riquezas de Genjuro y de la misteriosa Lady Wakasa, así como el deseo de Tobei de convertirse en samurái, corren el riesgo de destruirlos a ellos mismos y a sus esposas, Miyagi y Ohama.\",\n        \"poster_path\": \"/91moI7d2k2KSkixuecsfhf3gBh5.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          14,\n          18,\n          9648\n        ],\n        \"popularity\": 3.5395,\n        \"release_date\": \"1953-03-26\",\n        \"video\": false,\n        \"vote_average\": 8.009,\n        \"vote_count\": 634\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/7m8b1YwEeK8NeMkiSbPY8CMJx6a.jpg\",\n        \"id\": 20532,\n        \"title\": \"El intendente Sansho\",\n        \"original_title\": \"山椒大夫\",\n        \"overview\": \"A finales de la Era Heian en el siglo XII, el gobernador de un pueblo es enviado al exilio. A pesar de que su familia quiere ir con él, ninguno podrá acompañarle, pues, engañados por una vieja que se hace pasar por sacerdotisa, son vendidos como esclavos por separado: la madre por un lado y los hijos por otro.\",\n        \"poster_path\": \"/z7IZYt4nsNig12RGtMhW4uPyRr7.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 2.9529,\n        \"release_date\": \"1954-03-31\",\n        \"video\": false,\n        \"vote_average\": 8.075,\n        \"vote_count\": 420\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/2abzWmOGC1KNISvLlLZ6IIp1PoE.jpg\",\n        \"id\": 43364,\n        \"title\": \"La vida de Oharu, mujer galante\",\n        \"original_title\": \"西鶴一代女\",\n        \"overview\": \"Narra la dura vida de Oharu, una mujer sometida a los convencionalismos de la sociedad feudal en el Japón del siglo XVII.\",\n        \"poster_path\": \"/l64sOW9Ix64Y6YmCquFuzXPL3sH.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 1.9964,\n        \"release_date\": \"1952-04-17\",\n        \"video\": false,\n        \"vote_average\": 7.693,\n        \"vote_count\": 194\n      }\n    ]\n  },\n  {\n    \"adult\": false,\n    \"gender\": 2,\n    \"id\": 3755512,\n    \"known_for_department\": \"Directing\",\n    \"name\": \"溝口憲司\",\n    \"original_name\": \"溝口憲司\",\n    \"popularity\": 0.1363,\n    \"profile_path\": null,\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/n61sgsYJj02oO4AWFWLrGq9toqe.jpg\",\n        \"id\": 55582,\n        \"name\": \"孤独のグルメ\",\n        \"original_name\": \"孤独のグルメ\",\n        \"overview\": \"\",\n        \"poster_path\": \"/3DEWsJv0OxHON7AEy4Us6m3e7fS.jpg\",\n        \"media_type\": \"tv\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 28.9583,\n        \"first_air_date\": \"2012-01-04\",\n        \"vote_average\": 8.9,\n        \"vote_count\": 24,\n        \"origin_country\": [\n          \"JP\"\n        ]\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/poACNGVeu5rXrsdxpC9RptoHuDH.jpg\",\n        \"id\": 894805,\n        \"title\": \"孤独のグルメSeason4 真夏の博多・出張スペシャル\",\n        \"original_title\": \"孤独のグルメSeason4 真夏の博多・出張スペシャル\",\n        \"overview\": \"\",\n        \"poster_path\": \"/xrJ07oqEVkoyfR7dZScYrC3Noea.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18,\n          10770\n        ],\n        \"popularity\": 0.5826,\n        \"release_date\": \"2014-08-09\",\n        \"video\": false,\n        \"vote_average\": 8,\n        \"vote_count\": 1\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/7mupMlehzKWVlZuR090NMjaQ1K6.jpg\",\n        \"id\": 935240,\n        \"title\": \"孤独のグルメ 大晦日スペシャル 京都・名古屋出張編\",\n        \"original_title\": \"孤独のグルメ 大晦日スペシャル 京都・名古屋出張編\",\n        \"overview\": \"\",\n        \"poster_path\": \"/iwOV1uZs3Bps4WjfD7xC1qm9mpi.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18,\n          10770\n        ],\n        \"popularity\": 0.6637,\n        \"release_date\": \"2018-12-31\",\n        \"video\": false,\n        \"vote_average\": 7,\n        \"vote_count\": 1\n      }\n    ]\n  }\n]"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "role": "assistant",
-        "content": [
-          {
-            "text": "No se encontraron nuevos datos para agregar a Kenji Mizoguchi. Probablemente sea porque los datos ya están en el dataset."
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": [
-          {
-            "text": "Busca algo de Abbas Kiarostami"
+            "text": "Ozu"
           }
         ]
       },
@@ -146,9 +18,9 @@
           {
             "toolUse": {
               "name": "buscar_peliculas",
-              "toolUseId": "sc2ezsd1d",
+              "toolUseId": "44zwwraxs",
               "input": {
-                "director": "Abbas Kiarostami"
+                "query": "Ozu"
               }
             }
           }
@@ -159,11 +31,11 @@
         "content": [
           {
             "toolResult": {
-              "toolUseId": "sc2ezsd1d",
+              "toolUseId": "44zwwraxs",
               "status": "success",
               "content": [
                 {
-                  "text": "No encontré directores con esos criterios."
+                  "text": "No encontré nada relevante con esos términos."
                 }
               ]
             }
@@ -176,9 +48,9 @@
           {
             "toolUse": {
               "name": "buscar_en_tmdb",
-              "toolUseId": "qs97y5941",
+              "toolUseId": "p79qrgfb1",
               "input": {
-                "nombre": "Abbas Kiarostami",
+                "nombre": "Ozu",
                 "tipo": "director"
               }
             }
@@ -190,11 +62,11 @@
         "content": [
           {
             "toolResult": {
-              "toolUseId": "qs97y5941",
+              "toolUseId": "p79qrgfb1",
               "status": "success",
               "content": [
                 {
-                  "text": "[\n  {\n    \"adult\": false,\n    \"gender\": 2,\n    \"id\": 119294,\n    \"known_for_department\": \"Directing\",\n    \"name\": \"عباس کیارستمی\",\n    \"original_name\": \"عباس کیارستمی\",\n    \"popularity\": 1.0573,\n    \"profile_path\": \"/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg\",\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/44SNTCSZTdbF5bzgUy4IfPV3DUq.jpg\",\n        \"id\": 30020,\n        \"title\": \"El sabor de las cerezas\",\n        \"original_title\": \"طعم گيلاس\",\n        \"overview\": \"Un hombre de mediana edad decide suicidarse. Su única preocupación es encontrar a alguien que le ayude y se comprometa a enterrarlo. Esta situación le permite conocer a una gran variedad de personajes.\",\n        \"poster_path\": \"/xjj9f4WEdE2NLO8Luf9ofNhvqCQ.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"fa\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 2.907,\n        \"release_date\": \"1997-09-28\",\n        \"video\": false,\n        \"vote_average\": 7.681,\n        \"vote_count\": 700\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/3t1qZqP1e17wQshpPKSqII1OogM.jpg\",\n        \"id\": 30017,\n        \"title\": \"Primer plano\",\n        \"original_title\": \"کلوزآپ ، نمای نزدیک\",\n        \"overview\": \"El iraní Abbas Kiarostami mezcla documental y drama a través de una historia en el que un fanático del cine finge ser el reputado director Mohsen Makmalbaf.\",\n        \"poster_path\": \"/bqdgN0SE5qbRXFPoaOPRj0yNv9X.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"fa\",\n        \"genre_ids\": [\n          80,\n          18\n        ],\n        \"popularity\": 1.9875,\n        \"release_date\": \"1990-05-09\",\n        \"video\": false,\n        \"vote_average\": 7.941,\n        \"vote_count\": 446\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/slNzn4E0XA1WE0yh9I53oIzXQ4e.jpg\",\n        \"id\": 48303,\n        \"title\": \"Copia certificada\",\n        \"original_title\": \"Copie conforme\",\n        \"overview\": \"James, escritor inglés, llega a Italia para dar un conferencia sobre la publicación de su nuevo libro que trata el tema de las estrechas relaciones que hay en el arte entre un original y una copia. Allí se encuentra con una jóven mujer de origen francés, galerista. Parten juntos por algunas horas a San Gimignano, pequeño pueblo cercano a Florencia. ¿Cómo distinguir el original de la copia, la realidad de la ficción?\",\n        \"poster_path\": \"/hHGhYtxq15PSO9A7h2MyppJZsrY.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"fr\",\n        \"genre_ids\": [\n          18,\n          10749\n        ],\n        \"popularity\": 1.2486,\n        \"release_date\": \"2010-05-19\",\n        \"video\": false,\n        \"vote_average\": 7,\n        \"vote_count\": 446\n      }\n    ]\n  }\n]"
+                  "text": "[\n  {\n    \"adult\": false,\n    \"gender\": 0,\n    \"id\": 5579883,\n    \"known_for_department\": \"Acting\",\n    \"name\": \"Akiko Ozu\",\n    \"original_name\": \"Akiko Ozu\",\n    \"popularity\": 0.1151,\n    \"profile_path\": null,\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/h2LsSToMcLDRwc4cxuLl9TPRX7Q.jpg\",\n        \"id\": 1423984,\n        \"title\": \"The Ozu Diaries\",\n        \"original_title\": \"The Ozu Diaries\",\n        \"overview\": \"\",\n        \"poster_path\": \"/hNfmTq2zaU03gHlg6tBZWcMVcci.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"en\",\n        \"genre_ids\": [\n          99\n        ],\n        \"popularity\": 0.518,\n        \"release_date\": \"2025-09-02\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 0,\n        \"vote_count\": 0\n      }\n    ]\n  },\n  {\n    \"adult\": false,\n    \"gender\": 0,\n    \"id\": 4269263,\n    \"known_for_department\": \"Acting\",\n    \"name\": \"Toyoko Ozu\",\n    \"original_name\": \"Toyoko Ozu\",\n    \"popularity\": 0.1289,\n    \"profile_path\": null,\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/or5iuVbEWQqTUP4OyO18ztbP1IW.jpg\",\n        \"id\": 43339,\n        \"title\": \"Veinticuatro ojos\",\n        \"original_title\": \"二十四の瞳\",\n        \"overview\": \"1928. En la idílica isla rural de Shodoshima, la joven, brillante y motivada maestra Hisaki Oishi empieza por primera vez su tarea de profesora a cargo de doce niños de primaria, los inocentes y entrañables veinticuatro ojos que la mirarán en su primer año formativo de escuela. Al principio, los métodos de enseñanza poco ortodoxos de la nueva maestra y su moderna visión de chica de ciudad provocan cierto recelo en la comunidad pero pronto niños y adultos caen bajo su irresistible encanto. Al cabo de los años, la inminente guerra cambiará sus vidas para siempre.\",\n        \"poster_path\": \"/rMSpbPE3qDbD20PEvH9RHaHkLsM.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 0.9753,\n        \"release_date\": \"1954-09-15\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 7.696,\n        \"vote_count\": 93\n      }\n    ]\n  },\n  {\n    \"adult\": false,\n    \"gender\": 0,\n    \"id\": 2551361,\n    \"known_for_department\": \"Acting\",\n    \"name\": \"Katae Ozu\",\n    \"original_name\": \"Katae Ozu\",\n    \"popularity\": 0.0996,\n    \"profile_path\": null,\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/q2vsoSsWoaGEu3MuaqcMkv2djmu.jpg\",\n        \"id\": 256216,\n        \"title\": \"La noche de las mujeres\",\n        \"original_title\": \"女ばかりの夜\",\n        \"overview\": \"A fines de la década de 1950 se prohibió la prostitución en Japón y si se encontraba a una mujer ejerciendo esta profesión, se la enviaba a un reformatorio. Esta es la historia de una de estas valientes mujeres Kuniko que sale del reformatorio y trata de construir una nueva vida.\",\n        \"poster_path\": \"/uTFJltSBV3WnQy2nTR7C5vdiDWi.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 0.7666,\n        \"release_date\": \"1961-09-04\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 6.48,\n        \"vote_count\": 25\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": null,\n        \"id\": 1403828,\n        \"title\": \"腰抜け女兵騒動\",\n        \"original_title\": \"腰抜け女兵騒動\",\n        \"overview\": \"\",\n        \"poster_path\": \"/beeoqoS5s90I6OtlpUeRdXqcWSC.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [],\n        \"popularity\": 0.311,\n        \"release_date\": \"1961-01-26\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 0,\n        \"vote_count\": 0\n      }\n    ]\n  }\n]"
                 }
               ]
             }
@@ -205,7 +77,7 @@
         "role": "assistant",
         "content": [
           {
-            "text": "¡Me alegra haber encontrado algunas películas del director persa Abbas Kiarostami!\n\n\"Abbas Kiarostami\" es un director cinematográfico iraní conocido por sus películas contemplativas y reflexivas sobre la vida y la sociedad. Si estás buscando algo emocionante, te recomiendo su película \"El sabor de las cerezas\" (1997). Esta película sigue a un hombre de mediana edad que decide suicidarse, pero antes busca a alguien que se comprometa a enterrarlo. Al igual que su vida, la película es un recordatorio de la importancia de la conexión humana y la necesidad de encontrar significado en la vida. ¡Es una visión profunda y reflexiva que te hará pensar!\n\nDicho esto, si estás buscando algo un poco más ligero, también puedo recomendarte \"Primer plano\" (1990), que es una película que mezcla documental y drama. Siguiendo a un fanático del cine, la película explora la relación entre el director y su audiencia. Es una perspectiva única que te hará reflexionar sobre la naturaleza del cine y la forma en que podemos conectar con los demás a través de la película.\n\nEn cualquier caso, las películas de Abbas Kiarostami son un gran ejemplo de la cinematografía iraní y su capacidad para explorar temas profundos y complejos de manera reflexiva y artística. ¡Disfruta!"
+            "text": "Ozu es un director nipón, no tuve suficiente información para encontrar películas de Ozu."
           }
         ]
       },
@@ -213,7 +85,23 @@
         "role": "user",
         "content": [
           {
-            "text": "Agrega a Abbas Kiarostami con sus películas más importantes"
+            "text": "¿tienes algo de naruse?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "text": "Sí, Naruse Mikio es un director de origen nipón. <function=buscar_peliculas>{\"query\":\"naruse\"}</function>"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "dame tres películas de él"
           }
         ]
       },
@@ -222,40 +110,11 @@
         "content": [
           {
             "toolUse": {
-              "name": "agregar_director",
-              "toolUseId": "5632y115w",
+              "name": "buscar_en_tmdb",
+              "toolUseId": "wd1hqs9rs",
               "input": {
-                "estilo": "Drama y cine de observación",
-                "nombre": "Abbas Kiarostami",
-                "pais": "Irán",
-                "peliculas": [
-                  {
-                    "año": 1997,
-                    "dato_curioso": "Ganadora del León de Oro en el Festival de Cine de Venecia",
-                    "genero": "Drama",
-                    "sinopsis": "Un hombre de mediana edad decide suicidarse",
-                    "titulo": "El sabor de las cerezas"
-                  },
-                  {
-                    "año": 1990,
-                    "dato_curioso": "Mezcla de documental y drama",
-                    "genero": "Drama",
-                    "sinopsis": "La relación entre un director y su audiencia",
-                    "titulo": "Primer plano"
-                  },
-                  {
-                    "año": 2010,
-                    "dato_curioso": "Premio a la mejor película en el Festival de Cine de Mar del Plata",
-                    "genero": "Cine de observación",
-                    "sinopsis": "La conexión entre un escritor y su audiencia a través del cine",
-                    "titulo": "Copia certificada"
-                  }
-                ],
-                "temas": [
-                  "identidad",
-                  "realidad",
-                  "ficcion"
-                ]
+                "nombre": "Mikio Naruse",
+                "tipo": "director"
               }
             }
           }
@@ -266,11 +125,11 @@
         "content": [
           {
             "toolResult": {
-              "toolUseId": "5632y115w",
+              "toolUseId": "wd1hqs9rs",
               "status": "success",
               "content": [
                 {
-                  "text": "Director \"Abbas Kiarostami\" agregado correctamente con 3 películas."
+                  "text": "[\n  {\n    \"adult\": false,\n    \"gender\": 2,\n    \"id\": 125690,\n    \"known_for_department\": \"Directing\",\n    \"name\": \"Mikio Naruse\",\n    \"original_name\": \"成瀬巳喜男\",\n    \"popularity\": 1.1171,\n    \"profile_path\": \"/5dM8Uxco2dT21mEzoLSg5MAot6b.jpg\",\n    \"known_for\": [\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/uSyVJvqo7EwFguVukPIPa00dLAk.jpg\",\n        \"id\": 36872,\n        \"title\": \"Cuando una mujer sube la escalera\",\n        \"original_title\": \"女が階段を上る時\",\n        \"overview\": \"Keiko acaba de ver morir a su esposo y tiene que valerse por sí misma. Se convierte en patrona del bar Lilac en Tokio. Además de pagar su apartamento, se siente obligada a ayudar económicamente a su hermano, en paro y enfermo de polio. Yuri, una joven señorita de compañía que trabajaba con Keiko, se marcha tras seducir a Minobe, uno de los más ricos clientes de esta última. Sin embargo, Keiko se opone rotundamente a relacionarse con ricos patronos e insultar la memoria de su esposo, a diferencia de numerosas geishas.\",\n        \"poster_path\": \"/5s4YwelqkiMYBiTKduRpnU9fgbw.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18\n        ],\n        \"popularity\": 1.4172,\n        \"release_date\": \"1960-01-15\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 7.953,\n        \"vote_count\": 127\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/mP1nyyj9TJWPuu8gdWWwGjnDfgC.jpg\",\n        \"id\": 77285,\n        \"title\": \"Nubes flotantes\",\n        \"original_title\": \"浮雲\",\n        \"overview\": \"Yukiko y Tomioka fueron amantes durante la II Guerra Mundial, que pasaron en el sudeste asiático. Terminado el conflicto, Yukiko vuelve a Tokio en busca de Tomioka, al que cree divorciado, pero él sigue casado. A partir de ese momento su relación alterna separaciones y reencuentros, mientras otros hombres y mujeres pasan por sus vidas. (FILMAFFINITY)\",\n        \"poster_path\": \"/kEyUKCY3PrinYVVEZtlto5EHk41.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18,\n          10749\n        ],\n        \"popularity\": 1.0476,\n        \"release_date\": \"1955-01-15\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 7.7,\n        \"vote_count\": 107\n      },\n      {\n        \"adult\": false,\n        \"backdrop_path\": \"/qziYY4vp9L32nW4XPd4qM30ChlL.jpg\",\n        \"id\": 111398,\n        \"title\": \"Tormento\",\n        \"original_title\": \"乱れる\",\n        \"overview\": \"Reiko es viuda, su esposo Morita ha muerto en la guerra, dejándola al cargo del negocio familiar, que cada vez pierde más clientes a manos de los grandes supermercados. Koji, hermano de Morita, regresa de Tokio, aparentemetne dispuesto a echar una mano pero complicará más las cosas.\",\n        \"poster_path\": \"/vzdCDopCKD9vlUKIQMlhKprJlRa.jpg\",\n        \"media_type\": \"movie\",\n        \"original_language\": \"ja\",\n        \"genre_ids\": [\n          18,\n          10749\n        ],\n        \"popularity\": 2.7782,\n        \"release_date\": \"1964-01-15\",\n        \"softcore\": false,\n        \"video\": false,\n        \"vote_average\": 8.1,\n        \"vote_count\": 72\n      }\n    ]\n  }\n]"
                 }
               ]
             }
@@ -281,7 +140,7 @@
         "role": "assistant",
         "content": [
           {
-            "text": "Me alegra haber agregado las películas de Abbas Kiarostami a nuestro dataset.\n\nSi estás buscando algo emocionante, te recomiendo su película \"El sabor de las cerezas\" (1997). Esta película sigue a un hombre de mediana edad que decide suicidarse, pero antes busca a alguien que se comprometa a enterrarlo. Al igual que su vida, la película es un recordatorio de la importancia de la conexión humana y la necesidad de encontrar significado en la vida. ¡Es una visión profunda y reflexiva que te hará pensar!\n\nDicho esto, si estás buscando algo un poco más ligero, también puedo recomendarte \"Primer plano\" (1990), que es una película que mezcla documental y drama. Siguiendo a un fanático del cine, la película explora la relación entre el director y su audiencia. Es una perspectiva única que te hará reflexionar sobre la naturaleza del cine y la forma en que podemos conectar con los demás a través de la película.\n\nEn cualquier caso, las películas de Abbas Kiarostami son un gran ejemplo de la cinematografía iraní y su capacidad para explorar temas profundos y complejos de manera reflexiva y artística. ¡Disfruta!"
+            "text": "Tres películas de Mikio Naruse son:\n\n1. \"Cuando una mujer sube la escalera\" (1960)\n2. \"Nubes flotantes\" (1955)\n3. \"Tormento\" (1964)\n\nEstas películas son consideradas algunas de las mejores obras de Naruse y reflejan su estilo cinematográfico y su enfoque en las relaciones humanas."
           }
         ]
       },
@@ -289,7 +148,7 @@
         "role": "user",
         "content": [
           {
-            "text": "¿Qué película de las que mencionaste antes es más accesible para alguien que no conoce el cine iraní?"
+            "text": "recomienda algo de joachim trier"
           }
         ]
       },
@@ -297,13 +156,43 @@
         "role": "assistant",
         "content": [
           {
-            "text": "En ese caso, te recomiendo \"Copia certificada\" (2010). Es una película más ligera y accesible que las otras dos, y explora temáticas más universales como la conexión entre el escritor y su audiencia a través del cine. Además, es una película más moderna y tiene un ritmo más fluido que las otras dos, lo que la hace más fácil de seguir y apreciar, incluso para alguien que no conoce el cine iraní.\n\nAdemás, \"Copia certificada\" es una película que se centra en la relación entre el escritor y su obra, y cómo esta relación puede ser más importante que la obra misma. Es una idea que puede ser más fácil de entender y relacionar para alguien que no conoce el cine iraní, y que puede ser una puerta de entrada para explorar más a fondo la obra de Abbas Kiarostami.\n\nEn resumen, \"Copia certificada\" es una película accesible y emocionante que puede ser una excelente introducción al cine iraní y a la obra de Abbas Kiarostami."
+            "toolUse": {
+              "name": "buscar_peliculas",
+              "toolUseId": "aq434a6ra",
+              "input": {
+                "query": "Joachim Trier, drama, cine noruego, existencialismo, ansiedad"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "toolResult": {
+              "toolUseId": "aq434a6ra",
+              "status": "success",
+              "content": [
+                {
+                  "text": "[\n  {\n    \"director\": \"Carl Theodor Dreyer\",\n    \"pais\": \"Dinamarca\",\n    \"estilo\": \"Primeros planos extremos, rostros como paisajes, geometría dramática\",\n    \"temas\": [\n      \"fe\",\n      \"fanatismo\",\n      \"injusticia\",\n      \"amor místico\",\n      \"muerte\"\n    ],\n    \"peliculas\": [\n      {\n        \"titulo\": \"La pasión de Juana de Arco\",\n        \"año\": 1928,\n        \"genero\": \"Drama histórico / Cine mudo\",\n        \"sinopsis\": \"El último día del juicio y ejecución de Juana de Arco, contado a través de primeros planos devastadores.\",\n        \"dato_curioso\": \"Dreyer filmó en orden cronológico para que la actriz María Falconetti viviera emocionalmente el proceso; nunca más volvió a actuar en cine.\"\n      },\n      {\n        \"titulo\": \"Ordet\",\n        \"año\": 1955,\n        \"genero\": \"Drama espiritual\",\n        \"sinopsis\": \"En una familia campesina danesa, un hijo que cree ser Jesucristo resucita a una mujer muerta.\",\n        \"dato_curioso\": \"Basada en una obra de teatro; el final, que parece imposible, Dreyer lo filma con total sobriedad para hacerlo creíble.\"\n      }\n    ]\n  },\n  {\n    \"director\": \"Abbas Kiarostami\",\n    \"pais\": \"Irán\",\n    \"estilo\": \"Minimalismo poético, carretera como espacio narrativo, fusión de documental y ficción, elipsis\",\n    \"temas\": [\n      \"identidad\",\n      \"realidad vs ficción\",\n      \"muerte\",\n      \"arte\",\n      \"mirada\"\n    ],\n    \"peliculas\": [\n      {\n        \"titulo\": \"El sabor de las cerezas\",\n        \"año\": 1997,\n        \"genero\": \"Drama\",\n        \"sinopsis\": \"Un hombre de mediana edad recorre los alrededores de Teherán en su coche buscando a alguien que lo entierre tras su suicidio, ofreciendo dinero a quien acepte la tarea.\",\n        \"dato_curioso\": \"Ganó la Palma de Oro en Cannes ex aequo; el público quedó dividido entre quienes aplaudieron y quienes abuchearon.\"\n      },\n      {\n        \"titulo\": \"Primer plano\",\n        \"año\": 1990,\n        \"genero\": \"Drama documental\",\n        \"sinopsis\": \"Un hombre pobre es arrestado por hacerse pasar por el director Mohsen Makhmalbaf, pero Kiarostami convierte el juicio real en una reflexión sobre el cine, la identidad y la clase social.\",\n        \"dato_curioso\": \"Kiarostami convenció al juez de filmar el juicio real; las escenas en la cárcel son documentales auténticos.\"\n      },\n      {\n        \"titulo\": \"Copia certificada\",\n        \"año\": 2010,\n        \"genero\": \"Drama\",\n        \"sinopsis\": \"Un escritor británico y una galerista francesa pasan un día juntos en la Toscana, bordeando constantemente la línea entre la ficción de una pareja y la realidad de dos desconocidos.\",\n        \"dato_curioso\": \"Protagonizada por Juliette Binoche, quien ganó el premio a mejor actriz en Cannes. Fue la primera película de Kiarostami filmada fuera de Irán.\"\n      }\n    ]\n  }\n]"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "text": "Recomiendo las siguientes películas de Joachim Trier basadas en su estilo y temas existenciales:\n\n1. \"Oslo, 31 de agosto\" (2011): Una película dramática que explora la relación entre un padre y un hijo que regresan a la capital noruega después del atentado del 22 de julio.\n2. \"Nymphomaniac\" (2013): Un drama psicológico que sigue la historia de una mujer que descubre su condición de nymphomaniaca después de un accidente.\n3. \"Thelma\" (2017): Una película de fantasía que sigue la historia de una joven que descubre sus poderes telekinéticos y su conexión mística con el océano.\n\nEstas películas de Trier exploran temas existenciales como la ansiedad, la inseguridad y la búsqueda de la identidad, lo que las hace interesantes para aquellos que buscan películas que profundicen en la condición humana."
           }
         ]
       }
     ],
     "state": {},
-    "systemPrompt": "Eres un crítico de cine experto y cinéfilo apasionado.\nTu personalidad:\n1. Conoces en profundidad directores, sus filmografías y estilos únicos\n2. Sugieres películas de cualquier tipo, pero que tengan alguna crítica constructiva del mundo, y aporten salidas mediante valores como: empatía, comunicación abierta, reconciliación con uno o con otros, flexibilidad y adaptabilidad, autoconocimiento, compasión, desarrollo (personal, conciencia, espíritu). Te conmueven personajes que fracasan y buscan una salida mediante un bien a otros.\n3. Puedes recomendar películas según género, director o estado de ánimo\n4. Das sinopsis breves pero cautivadoras\n5. Mencionas datos curiosos sobre la producción cuando es relevante\n6. Respondes siempre en español con entusiasmo cinéfilo\n\nTienes acceso a estas herramientas y DEBES usarlas en este orden:\n\nPara RECOMENDAR películas:\n- Usa buscar_peliculas para consultar el dataset local primero.\n\nPara AGREGAR un director o película:\n1. SIEMPRE usa buscar_en_tmdb primero para obtener datos reales y precisos.\n2. Solo después de tener esos datos, usa agregar_director para guardarlos.\n3. NUNCA inventes ni rellenes datos — si buscar_en_tmdb no devuelve resultados, informa al usuario.\n\nMantén las respuestas concisas pero informativas - máximo 3 párrafos.\nDespués de usar las herramientas, SIEMPRE responde con una recomendación\nentusiasta en español, mencionando el estilo del director, una película\nconcreta con su sinopsis y un dato curioso."
+    "systemPrompt": "Eres un crítico de cine experto y cinéfilo apasionado.\nTu personalidad:\n1. Conoces en profundidad directores, sus filmografías y estilos únicos\n2. Sugieres películas de cualquier tipo, pero que tengan alguna crítica constructiva del mundo, y aporten salidas mediante valores como: empatía, comunicación abierta, reconciliación con uno o con otros, flexibilidad y adaptabilidad, autoconocimiento, compasión, desarrollo (personal, conciencia, espíritu). Te conmueven personajes que fracasan y buscan una salida mediante un bien a otros.\n3. Puedes recomendar películas según género, director o estado de ánimo\n4. Das sinopsis breves pero cautivadoras\n5. Mencionas datos curiosos sobre la producción cuando es relevante\n6. Respondes siempre en español con entusiasmo cinéfilo\n\nTienes acceso a estas herramientas:\n- buscar_peliculas(query): busca directores/películas con TF-IDF semántico. El parámetro 'query' es texto libre: 'Tarkovsky memoria', 'película sobre fe', 'drama japonés'\n- buscar_en_tmdb: consulta TMDB antes de agregar datos\n- agregar_director: guarda un director y sus películas al dataset\n- abrir_stream: abre la película en streamimdb.ru\n- buscar_trailer: busca el trailer en YouTube\n\nPara RECOMENDAR: usa buscar_peliculas primero.\nPara AGREGAR: usa buscar_en_tmdb primero, luego agregar_director.\nNUNCA inventes datos. Si el usuario quiere ver la película, ofrécete a buscar el stream o trailer.\n\nMantén respuestas de máximo 3 párrafos. Siempre recomienda con entusiasmo."
   },
   "appData": {}
 }

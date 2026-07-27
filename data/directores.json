@@ -135,7 +135,7 @@
         "titulo": "Sacrificio",
         "año": 1986,
         "genero": "Drama",
-        "sinopsis": "Mientras su familia se reúne para celebrar su cumpleaños, el periodista Alexander se siente angustiado por la desoladora falta de espiritualidad que caracteriza al mundo contemporáneo. Sus peores temores se confirman cuando, durante la fiesta, llega la noticia de un inminente conflicto nuclear: la Tercera Guerra Mundial",
+        "sinopsis": "En su cumpleaños, un periodista angustiado por la falta de espiritualidad del mundo recibe la noticia de una inminente guerra nuclear y ofrece todo lo que ama a cambio de detenerla.",
         "dato_curioso": "La escena final debió ser grabada dos veces, con todo el gasto que implicaba."
       }
     ]
@@ -171,73 +171,77 @@
   {
     "nombre": "Kenji Mizoguchi",
     "pais": "Japón",
-    "estilo": "Realizador japonés conocido por sus películas sociales y dramas familiares",
+    "estilo": "Planos secuencia largos, steady-cam emocional, pintura en movimiento, realismo poético",
     "temas": [
-      "familia",
-      "sociedad",
-      "moral"
+      "mujer",
+      "sacrificio",
+      "sociedad patriarcal",
+      "tradición",
+      "desigualdad"
     ],
     "peliculas": [
       {
-        "titulo": "La lluvia",
+        "titulo": "Cuentos de la luna pálida",
         "año": 1953,
-        "genero": "drama",
-        "sinopsis": "La historia sigue a una joven que es obligada a casarse con un hombre mayor y decide huir para evitar el matrimonio, pero es perseguida en su intento",
-        "dato_curioso": "Fue elegida mejor película de Japón en el año 1953"
-      },
-      {
-        "titulo": "Las hijas del fuego",
-        "año": 1945,
-        "genero": "drama",
-        "sinopsis": "La película sigue a dos hermanas que viven en un pueblo rural japonés y se enfrentan a dificultades económicas y personales",
-        "dato_curioso": "Se basa en la novela de la autora japonesa Yasunari Kawabata"
-      },
-      {
-        "titulo": "Vida de Ópera",
-        "año": 1952,
-        "genero": "drama",
-        "sinopsis": "Un joven sirviente en una familia noble se enamora de la hija del dueño de casa, pero su relación es imposible debido a la diferencia social",
-        "dato_curioso": "Se basa en la novela de la escritora estadounidense Louis-Sébastien Mercier"
+        "genero": "Drama histórico",
+        "sinopsis": "En el Japón del siglo XVI, dos campesinos persiguen sus ambiciones — uno la fama como samurái, otro la riqueza — mientras las mujeres de sus vidas pagan las consecuencias.",
+        "dato_curioso": "Mizoguchi rodó la secuencia del asesinato de la esposa en una sola toma de más de dos minutos, sin cortes."
       },
       {
         "titulo": "La vida de Oharu",
         "año": 1952,
-        "genero": "drama",
-        "sinopsis": "La historia sigue a una joven que es obligada a casarse con un hombre mayor y es perseguida al intentar escapar del matrimonio",
-        "dato_curioso": "Fue seleccionada como la mejor película japonesa para la Oscar"
+        "genero": "Drama histórico",
+        "sinopsis": "Oharu, una mujer de la corte del siglo XVII, desciende inexorablemente por la escala social tras un amor prohibido: de dama de compañía a cortesana y mendiga.",
+        "dato_curioso": "Mizoguchi se inspiró en su propia hermana, vendida como geisha cuando él era niño."
+      },
+      {
+        "titulo": "El intendente Sansho",
+        "año": 1954,
+        "genero": "Drama histórico",
+        "sinopsis": "Dos hermanos, hijos de un gobernador exiliado, son separados y vendidos como esclavos en una provincia lejana, donde el hermano termina sirviendo al cruel intendente Sansho.",
+        "dato_curioso": "La escena final en la que la madre reza en la orilla del mar provocó un silencio absoluto en su estreno en Venecia."
+      },
+      {
+        "titulo": "Los amantes crucificados",
+        "año": 1954,
+        "genero": "Drama romántico",
+        "sinopsis": "Un joven empleado y la esposa de su maestro se enamoran y huyen juntos, desatando una persecución que los lleva a un destino trágico.",
+        "dato_curioso": "Basada en una obra de teatro de bunraku (títeres japoneses), Mizoguchi conservó la estructura narrativa del teatro clásico."
       }
     ]
   },
   {
     "nombre": "Abbas Kiarostami",
     "pais": "Irán",
-    "estilo": "Drama y cine de observación",
+    "estilo": "Minimalismo poético, carretera como espacio narrativo, fusión de documental y ficción, elipsis",
     "temas": [
       "identidad",
-      "realidad",
-      "ficcion"
+      "realidad vs ficción",
+      "muerte",
+      "arte",
+      "mirada"
     ],
     "peliculas": [
       {
         "titulo": "El sabor de las cerezas",
         "año": 1997,
         "genero": "Drama",
-        "sinopsis": "Un hombre de mediana edad decide suicidarse",
-        "dato_curioso": "Ganadora del León de Oro en el Festival de Cine de Venecia"
+        "sinopsis": "Un hombre de mediana edad recorre los alrededores de Teherán en su coche buscando a alguien que lo entierre tras su suicidio, ofreciendo dinero a quien acepte la tarea.",
+        "dato_curioso": "Ganó la Palma de Oro en Cannes ex aequo; el público quedó dividido entre quienes aplaudieron y quienes abuchearon."
       },
       {
         "titulo": "Primer plano",
         "año": 1990,
-        "genero": "Drama",
-        "sinopsis": "La relación entre un director y su audiencia",
-        "dato_curioso": "Mezcla de documental y drama"
+        "genero": "Drama documental",
+        "sinopsis": "Un hombre pobre es arrestado por hacerse pasar por el director Mohsen Makhmalbaf, pero Kiarostami convierte el juicio real en una reflexión sobre el cine, la identidad y la clase social.",
+        "dato_curioso": "Kiarostami convenció al juez de filmar el juicio real; las escenas en la cárcel son documentales auténticos."
       },
       {
         "titulo": "Copia certificada",
         "año": 2010,
-        "genero": "Cine de observación",
-        "sinopsis": "La conexión entre un escritor y su audiencia a través del cine",
-        "dato_curioso": "Premio a la mejor película en el Festival de Cine de Mar del Plata"
+        "genero": "Drama",
+        "sinopsis": "Un escritor británico y una galerista francesa pasan un día juntos en la Toscana, bordeando constantemente la línea entre la ficción de una pareja y la realidad de dos desconocidos.",
+        "dato_curioso": "Protagonizada por Juliette Binoche, quien ganó el premio a mejor actriz en Cannes. Fue la primera película de Kiarostami filmada fuera de Irán."
       }
     ]
   }
